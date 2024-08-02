@@ -6,6 +6,11 @@ import { FaFacebook } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import { FaLinkedin } from "react-icons/fa";
 
+import Img4 from '../assets/images/Mask group (2).png'
+import Img5 from '../assets/images/Mask group (3).png'
+import Img6 from '../assets/images/Mask group (4).png'
+import Img7 from '../assets/images/Mask group (5).png'
+
 
 const Product = () => {
     // const [state, setState] = useState(false)
@@ -121,6 +126,37 @@ const Product = () => {
         </div>
       </div>
       <hr />
+      <section className=' w-full flex flex-wrap gap-10 scroll-smooth py-10 justify-center items-center'>
+            <h2 className='text-[50px]  text-black font-semibold '>Top Picks For You</h2>
+            <p className='text-[20px]  text-black  '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, maxime? Optio, corporis aspernatur</p>
+
+            <div className=' scroll-smooth py-10 flex justify-between flex-wrap'>
+
+                <div className=' h-[397px]' >
+                    <img src={Img4} alt="" />
+                    <p>Trenton modular safo_3 </p>
+                    <h3 className='font-semibold  text-2xl'>Rs: 25,000.00</h3>
+                </div>
+
+                <div className='h-[397px]' >
+                    <img src={Img5} alt="" />
+                    <p>Trenton modular safo_3 </p>
+                    <h3 className='font-semibold  text-2xl'>Rs: 25,000.00</h3>
+                    </div>
+
+                <div className='h-[397px]' >
+                    <img src={Img6} alt="" />
+                    <p>Trenton modular safo_3 </p>
+                    <h3 className='font-semibold  text-2xl'>Rs: 25,000.00</h3>
+                    </div>
+
+                <div className=' h-[397px]' >
+                    <img src={Img7} alt="" />
+                    <p>Trenton modular safo_3 </p>
+                    <h3 className='font-semibold text-2xl'>Rs: 25,000.00</h3>
+                    </div>
+            </div>
+        </section>
     </div>
   )
 }

@@ -13,7 +13,7 @@ const header = () => {
     <header className='w-full h-[80px] scroll-smooth py-[20px] px-[50px] bg-[#FBEBB5]'>
         <nav className='flex justify-center'>
             <ul className='flex gap-8  '>
-                <li><a href="">Home</a></li>
+                <li><Link to='/'>Home</Link></li>
 
                 <li><Link to='/Product'>shop</Link></li>
 

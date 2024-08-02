@@ -1,6 +1,4 @@
 import React from 'react'
-import Hero from '../components/Hero'
-import Card from '../components/Card'
 import Carts from '../components/Carts'
 
 const Home = () => {
