@@ -10,6 +10,18 @@ import Img4 from '../assets/images/Mask group (2).png'
 import Img5 from '../assets/images/Mask group (3).png'
 import Img6 from '../assets/images/Mask group (4).png'
 import Img7 from '../assets/images/Mask group (5).png'
+import images1 from '../assets/images/Group 94.svg'
+import images2 from '../assets/images/Group 98.svg'
+import images3 from '../assets/images/Group 97.svg'
+import images4 from '../assets/images/Group 96.svg'
+import images5 from '../assets/images/Group 95.svg'
+import images6 from '../assets/images/Rectangle 42.svg'
+import images13 from '../assets/images/Rectangle 42.svg'
+import images7 from '../assets/images/Rectangle 42.svg'
+import images8 from '../assets/images/Group 106.svg'
+import images9 from '../assets/images/Group 107.svg'
+
+
 
 
 const Product = () => {
@@ -35,13 +47,13 @@ const Product = () => {
       <div className='flex justify-between'>
         <div className='flex'>
             <div className='grid  h-[560px]'>
-                <img src="../src/assets/images/Group 94.svg" alt="" />
-                <img src="../src/assets/images/Group 98.svg" alt="" />
-                <img src="../src/assets/images/Group 97.svg" alt="" />
-                <img src="../src/assets/images/Group 96.svg" alt="" />
+                <img src={images1} alt="" />
+                <img src={images2} alt="" />
+                <img src={images3} alt="" />
+                <img src={images4} alt="" />
             </div>
             <div>
-                <img className='' src="../src/assets/images/Group 95.svg" alt="" />
+                <img className='' src={images5} alt="" />
             </div>
         </div>
         <div className='w-[600px]'>
@@ -69,13 +81,13 @@ const Product = () => {
             <p className='text-[#9F9F9F]'>Color</p>
             <div className='flex gap-3 my-3'>
                 <button>
-                    <img src="../src/assets/images/Rectangle 42.svg" alt="" />
+                    <img src={images6} alt="" />
                 </button>
                 <button>
-                    <img src="../src/assets/images/Rectangle 42.svg" alt="" />
+                    <img src={images13} alt="" />
                 </button>
                 <button>
-                    <img src="../src/assets/images/Rectangle 42.svg" alt="" />
+                    <img src={images7} alt="" />
                 </button>
             </div>
             <div className='flex gap-8 my-5'>
@@ -121,8 +133,8 @@ const Product = () => {
             </div>
         </div>
         <div className='flex  gap-10 my-10'>
-            <img src="../src/assets/images/Group 106.svg" alt="" />
-            <img src="../src/assets/images/Group 107.svg" alt="" />
+            <img src={images8} alt="" />
+            <img src={images9} alt="" />
         </div>
       </div>
       <hr />
