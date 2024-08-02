@@ -1,4 +1,15 @@
 import React from 'react'
+import img1 from '../assets/images/Rocket single seater 1.png'
+import Img2 from '../assets/images/Mask group.png'
+import Img3 from '../assets/images/Mask group (1).png'
+import Img4 from '../assets/images/Mask group (2).png'
+import Img5 from '../assets/images/Mask group (3).png'
+import Img6 from '../assets/images/Mask group (4).png'
+import Img7 from '../assets/images/Mask group (5).png'
+import Img8 from '../assets/images/Asgaard sofa 1.png'
+import Img9 from '../assets/images/Rectangle 13.png'
+import Img10 from '../assets/images/Rectangle 14.png'
+import Img11 from '../assets/images/Rectangle 15.png'
 
 const Carts = () => {
   return (
@@ -11,21 +22,21 @@ const Carts = () => {
         </div>
 
         <div className='w-[50%]'>
-                <img className='w-[100%] h-[700px]'  src='' alt="devan" />
+                <img className='w-[100%] h-[700px]'  src={img1} alt="devan" />
             </div>
             
         </section>
 
         <section className='w-full p gap-10  flex flex-wrap scroll-smooth px-[120px] py-10 justify-center items-center bg-[#FAF4F4]'>
             <div>
-        <img src="" alt="" />
+        <img src={Img2} alt="" />
         <h2 className='text-[40px]  text-black font-semibold'>Side table</h2>
         <a className='border-b-2 border-[#000] font-normal texl-2xl pt-5' href="">VieW More</a>
 
             </div>
 
             <div>
-        <img src="" alt=" "/>
+        <img src={Img3} alt=" "/>
         <h2 className='text-[40px] text-[#000]  font-semibold'>Side table</h2>
         <a className='border-b-2 border-[#000] font-normal texl-2xl pt-5' href="">VieW More</a>
             </div>
@@ -38,25 +49,25 @@ const Carts = () => {
             <div className='w-[100%] scroll-smooth py-10 flex gap-10 flex-wrap'>
 
                 <div className='w-[287px] h-[397px]' >
-                    <img src="" alt="" />
+                    <img src={Img4} alt="" />
                     <p>Trenton modular safo_3 </p>
                     <h3 className='font-semibold  text-2xl'>Rs: 25,000.00</h3>
                 </div>
 
                 <div className='w-[287px] h-[397px]' >
-                    <img src="" alt="" />
+                    <img src={Img5} alt="" />
                     <p>Trenton modular safo_3 </p>
                     <h3 className='font-semibold  text-2xl'>Rs: 25,000.00</h3>
                     </div>
 
                 <div className='w-[287px] h-[397px]' >
-                    <img src="" alt="" />
+                    <img src={Img6} alt="" />
                     <p>Trenton modular safo_3 </p>
                     <h3 className='font-semibold  text-2xl'>Rs: 25,000.00</h3>
                     </div>
 
                 <div className='w-[287px] h-[397px]' >
-                    <img src="" alt="" />
+                    <img src={Img7} alt="" />
                     <p>Trenton modular safo_3 </p>
                     <h3 className='font-semibold text-2xl'>Rs: 25,000.00</h3>
                     </div>
@@ -65,7 +76,7 @@ const Carts = () => {
 
         <section className='w-full  flex flex-wrap items-center scroll-smooth py-10 px-[120px] bg-[#FFF9E5] gap-10'>
         <div>
-            <img src="" alt="" />
+            <img src={Img8} alt="" />
         </div>
 
         <div className=' flex flex-col justify-center items-center'>
@@ -80,7 +91,7 @@ const Carts = () => {
         <p className='text-[20px] text-[#000]  '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus totam temporibus libero consequuntur </p>  
         <div className='w-[100%] scroll-smooth py-10 flex justify-center gap-10 flex-wrap'>
                 <div className=' text-center'>
-                    <img src=""       alt="" />
+                    <img src={Img9}       alt="" />
                     <p>Lorem ipsum dolor sit amet.</p>
                 <a  className='border-b-2 border-[#000] font-semibold text-[30px] texl-4xl pt-5  block scroll-smooth px-[10px]' href="">Read More</a>
                 <p className='pt-6'>
@@ -90,7 +101,7 @@ const Carts = () => {
                 </div>
 
             <div className=' text-center'>
-                <img src=""     alt="" />
+                <img src={Img10}     alt="" />
                 <p>Lorem ipsum dolor sit amet.</p>
                 <a  className='border-b-2 border-[#000] font-semibold text-[30px] texl-4xl pt-5  block scroll-smooth px-[10px]' href="">Read More</a>
                 <p className='pt-6'>
@@ -100,7 +111,7 @@ const Carts = () => {
                 </div>
 
             <div className=' text-center'>
-                <img src=""      alt="" />
+                <img src={Img11}    alt="" />
                 <p>Lorem ipsum dolor sit amet.</p>
                 <a  className='border-b-2 border-[#000] font-semibold text-[30px] texl-4xl pt-5  block scroll-smooth px-[10px]' href="">Read More</a>
                 <p className='pt-6'>

@@ -6,10 +6,7 @@ import Carts from '../components/Carts'
 const Home = () => {
   return (
     <div>
-      <Hero/>
-      <Card/>
       <Carts/>
-
     </div>
   )
 }
